@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-
+<?php 
 //controller
 function user(object $pdo, string $image, string $fname, string $mname, string $lname, string $number, string $email, string $pwd)
 {
